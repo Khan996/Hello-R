@@ -77,3 +77,5 @@ class(e)
 # pass values in it.
 o <- vector("numeric", 12)
 o
+v = 4
+v
