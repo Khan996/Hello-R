@@ -79,3 +79,15 @@ o <- vector("numeric", 12)
 o
 v = 4
 v
+# Mixing Objects
+# Coercion
+a <- c(1.3, "a")
+a
+class(a)
+b <- c(TRUE, 2)
+b
+class(bb)
+class(b)
+b <- c("a", TRUE)
+b
+class(b)
