@@ -91,3 +91,31 @@ class(b)
 b <- c("a", TRUE)
 b
 class(b)
+
+# Explicit Coercion: Conversion of Data Types
+x <- 1:13
+x
+class(x)
+as.numeric(x) # This will convert integer data type into numeric data type
+class(x) # It gives us integer the same as above
+class(as.numeric(x)) #While it gives us numeric data type
+
+y <- 0:13
+y
+class(y)
+as.logical(y)
+as.numeric(y)
+class(y)
+class(as.numeric(y))
+as.character(y)
+class(y)
+class(as.character(y))
+
+# Nonsensical coercion results in NAs
+x <- c("a", "b", "c", "d")
+as.numeric(x)
+as.logical(x)
+y <- 1:5
+y
+as.complex(y)
+class(as.complex(y))
