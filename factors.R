@@ -19,3 +19,10 @@ weeks <- factor(c("Monday","Tuesday","Saturday",
                            "Thursday","Friday","Saturday",
                            "Sunday"))
 weeks
+
+#NA & NaN are used for Null where data is not present
+
+D <- c(1,2,3, NA, 3, NaN, 4, NA)
+D
+is.na(D)
+is.nan(D)
